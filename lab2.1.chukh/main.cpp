@@ -6,6 +6,7 @@ using namespace std;
 int main() {
     double a;
     cin >> a;
+    cout << a << endl;
 
     double z1 = ((a + 2) / sqrt(2 * a) - a / (sqrt(2 * a) + 2) + 2 / (a - sqrt(2 * a))) * (sqrt(a) - sqrt(2)) / (a + 2);
     double z2 = 1 / (sqrt(a) + sqrt(2));
